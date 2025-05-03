@@ -13,7 +13,7 @@ export async function getNumberOfRemainingTasks(note: TFile): Promise<number> {
 
   const { vault } = window.app;
   const fileContents = await vault.cachedRead(note);
-  return (fileContents.match(/(-|\*) \[ \]/g) || []).length;
+  return (fileContents.match(/(-|\*|[0-9]+.) \[ \]/g) || []).length;
 }
 
 export async function getDotsForDailyNote(

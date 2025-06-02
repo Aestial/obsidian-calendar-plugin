@@ -1,9 +1,9 @@
 {
-  "id": "calendar",
-  "name": "Calendar",
-  "description": "Calendar view of your daily notes",
+  "id": "calendar-aestial-dev",
+  "name": "Calendar Aestial develop",
+  "description": "Custom Calendar view of your daily notes",
   "version": "1.5.10-p.2",
-  "author": "Liam Cain",
+  "author": "Liam Cain and Jaime Hernandez",
   "authorUrl": "https://github.com/liamcain/",
   "fundingUrl": "https://www.buymeacoffee.com/liamcain",
   "isDesktopOnly": false,
